@@ -31,5 +31,3 @@ Feature: User makes Get Request to URL and checks the element and its properties
 
 
 
-
-

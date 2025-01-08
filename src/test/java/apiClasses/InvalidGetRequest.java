@@ -6,6 +6,8 @@ import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
+
+//Author: Vanmathy Aravalluvan
 //Methods related to InvalidGetRequestStep and feature3_invalidGetRequest.feature
 public class InvalidGetRequest {
 

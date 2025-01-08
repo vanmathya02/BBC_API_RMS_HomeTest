@@ -11,7 +11,7 @@ import java.util.Locale;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.*;
-
+//Author: Vanmathy Aravalluvan
 //Method related to ResponseHeaderStep and feature2_responseHeader.feature
     public class ResponseHeader {
 
@@ -37,9 +37,7 @@ import static org.junit.Assert.*;
                 SimpleDateFormat dateFormat = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss");
                 Date parsedDate = dateFormat.parse(responseHeader);
 
-
                 System.out.println("Parsed Date: " + parsedDate);
-
 
                 String formattedDate = dateFormat.format(parsedDate);
                 System.out.println("Validation Passed: Formatted Date : " + formattedDate);
