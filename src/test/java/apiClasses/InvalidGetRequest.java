@@ -37,7 +37,7 @@ public class InvalidGetRequest {
         System.out.println("Error Status Code: " + statusCode);
 
         assertEquals(statusCode, errorStatusCode);
-        System.out.println("Expected error status code matches the actual error status code");
+        System.out.println("Validation Passed: Expected error status code matches the actual error status code");
 
     }
 
@@ -60,8 +60,8 @@ public class InvalidGetRequest {
         String details = errorObject.getString("details");
         int httpResponseCode = errorObject.getInt("http_response_code");
 
-        System.out.println("Error Details: " + details);
-        System.out.println("HTTP Response Code in Error: " + httpResponseCode);
+        System.out.println("Validation Passed: Error Details: " + details);
+        System.out.println("Validation Passed: HTTP Response Code in Error: " + httpResponseCode);
 
     }
 

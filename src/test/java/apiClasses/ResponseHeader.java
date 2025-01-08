@@ -42,7 +42,7 @@ import static org.junit.Assert.*;
 
 
                 String formattedDate = dateFormat.format(parsedDate);
-                System.out.println("Formatted Date : " + formattedDate);
+                System.out.println("Validation Passed: Formatted Date : " + formattedDate);
 
 
             } catch (ParseException e) {

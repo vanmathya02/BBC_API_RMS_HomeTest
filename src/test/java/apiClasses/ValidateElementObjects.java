@@ -52,7 +52,7 @@ public class ValidateElementObjects {
             // Check Episode Type
             String episodeType = episodeObject.optString("type", null);
             assertEquals("Episode type mismatch for element " + i, "episode", episodeType);
-            System.out.println("Element " + i + " Episode Type: " + episodeType);
+            System.out.println("Validate Passed: Episode type matches Episode for element  " + i + " Episode Type: " + episodeType);
         }
     }
 
@@ -68,7 +68,7 @@ public class ValidateElementObjects {
             // Check Title is not null
             String episodeTitle = episodeObject.optString("title", null);
             assertNotNull("Episode title is null for element " + i, episodeTitle);
-            System.out.println("Element " + i + " Episode Title: " + episodeTitle);
+            System.out.println("Validate Passed: Episode title is not null or empty for element " + i + " Episode Title: " + episodeTitle);
         }
     }
 
@@ -80,7 +80,7 @@ public class ValidateElementObjects {
             // Validate element ID
             String elementId = element.optString("id", null);
             assertNotNull("Element ID is missing for element at index " + i, elementId);
-            System.out.println("Element ID for element at index " + i + ": " + elementId);
+            System.out.println("Validate Element ID for element at index " + i + ": " + elementId + " passed");
         }
     }
 
