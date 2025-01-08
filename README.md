@@ -25,7 +25,7 @@ This framework is modular, easy to extend, and suitable for comprehensive API va
 
 
 
-## Testing Detailed Flow Diagram
+## RMS API Testing Flow Diagram
 
 ![BBC_RMS_Testing_Framework](https://github.com/user-attachments/assets/8a4ff53a-e94f-4622-88ee-656e9a7a0fcc)
 
